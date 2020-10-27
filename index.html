@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Clarissa Westphal Nogueira</title>
+  <link rel="icon" href="images/favicon.ico" type="image/icon" >
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&display=swap" rel="stylesheet">
+  <!-- CSS Style Sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <!-- Favicon -->
+
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+  <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+  <section id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#target1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#title">Clarissa Westphal Nogueira</a>
+        <div class="collapse navbar-collapse" id="target1">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+  <section id="title">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1><b style="color:#784c4a;">Design</b> and Communications</h1>
+          <p style="color:white;">
+            I am a professional <b style="color:#784c4a;">Graphic and Web Designer</b> specializing in services for associations (big or small!). I bring knowledge and experience in the areas of <b> Communications, Graphic Design, Front-End Web Development and Office Management.</b>
+
+          </p>
+        </div>
+
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/me-hello.png" alt="photo-of-me">
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+
+
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-edit fa-4x"></i>
+        <h3>Communications</h3>
+        <p>Social Media management I Video Editing I Copywriting I E-Mail Marketing </p>
+
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon far fa-file-code fa-4x"></i>
+        <h3>Web Design</h3>
+        <p>HTML I CSS I JavaScript I Bootstrap I Wordpress I DotNetNuke</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-palette fa-4x"></i>
+        <h3>Graphic Design</h3>
+        <p>Social Media Content Creation I Print Design I Banners I Flyers I Brochures</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <h3 class="cta-heading">Portfolio</h3>
+
+    <div class="row">
+      <div class="col-xs-12 col-lg-6">
+      <a href="https://www.behance.net/gallery/106795231/Graphic-Design-Projects" target="_blank"> <img class="portfolio-img" src="images/G-D.png" alt="Graphic-Design"> </a>
+      </div>
+      <div class="col-lg-6">
+        <a href="https://www.behance.net/gallery/106795839/Web-Design-Projects" target="_blank"><img class="portfolio-img" src="images/W-D.png" alt="Web-Design"></a>
+      </div>
+    </div>
+    </div>
+
+
+
+  </section>
+
+
+
+
+  <!-- Pricing -->
+  <section id="pricing">
+  <center>
+    <h3 class="vitae-heading">Curriculum vitae</h3>
+  </center>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <strong>2018-Today:</strong> Web Specialist, APSA
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                           <p>
+       <a href="https://www.apsanet.org"><strong>American Political Science Association Website</strong></a>
+</p>
+<p>
+<ul>
+  <li>
+    Technical/ IT support to staff and members while providing training as needed.
+  </li>
+  <li>
+    Web site and AMS/database support to staff and members.
+  </li>
+  <li>
+    Developing regular and ad hoc reports/queries for staff and members as needed.
+  </li>
+  <li>
+    Serving as a resource for staff assigned to web content editing duties.
+  </li>
+  <li>
+    Video Production and Editing
+  </li>
+  <li>
+    Graphic Design work for online media and print work.
+  </li>
+</ul>
+    </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                               <strong> 2017-2018: </strong>Web Communications Leader, Disruptica
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <p>
+<a href="https://www.disruptica.com/"><strong>Disruptica Website</strong></a>
+</p>
+<p>
+  <ul>
+    <li>
+      Social Media Management.
+    </li>
+    <li>
+      Text editing for marketing
+    </li>
+    <li>
+      Assistance at company Hackathons.
+    </li>
+    <li>
+      Video Editing.
+    </li>
+    <li>
+      Translation work. (SP>ENG)
+    </li>
+    <li>
+      Web Design assistance
+    </li>
+    <li>
+      Management of company's A.I system- creating new responses, testing functionality.
+    </li>
+  </ul>
+
+    </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <strong>2016-2018: </strong>Web Editor, AJBID
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <p>
+<a href="https://www.ajbid.org/en/"><strong>IDB Association of Retirees (AJBID) Website</strong></a>
+</p>
+<p>
+  <ul>
+    <li>
+      Editing web content of the AJBID website.
+    </li>
+    <li>
+      Website management and updates.
+    </li>
+    <li>
+      Graphic Design work for their tri-monthly magazine, website banners and luncheon invitations, among others. Video production and editing.
+
+    </li>
+    <li>
+      Writing articles for the tri-monthly magazine- small blurbs on recent Association events.
+    </li>
+    <li>
+      Office work, organization, assistance to members (in person and/or via calls).
+    </li>
+    <li>
+      Translation of articles from Spanish/Portuguese to English and vice versa.
+    </li>
+  </ul>
+
+    </p>
+                        </div>
+                    </div>
+                </div>
+               <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              <strong> 2014-2016:</strong> Junior Coordinator, EMDesign, UNISUL
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="panel-body">
+                           <p>
+<a href="http://www.unisul.br/wpfd_file/design/"><strong>UNISUL Website</strong></a>
+</p>
+<p>
+  <ul>
+    <li>
+      Co-leadership position in the EMDesign program, where students are given real-world design projects by various companies.
+
+    </li>
+    <li>
+      Creation of College Blog to store theses, enabling them to be viewed publicly by students.
+    </li>
+    <li>
+      Creation of Flyers for various Program projects and initiatives.
+    </li>
+    <li>
+      Assistance with office work
+    </li>
+    <li>
+      Overlooking, monitoring and guiding design students of various levels.
+    </li>
+  </ul>
+    </p>
+
+                        </div>
+                    </div>
+                </div>
+               <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFive">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                  <strong>2013-2014: </strong>Internships
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                        <div class="panel-body">
+                           <p>
+<a href="https://penseavanti.com.br/"><strong>Avanti Comunicação Website</strong></a>
+ <br>
+<a href="https://www.facebook.com/COMPublicidadecom/?ref=page_internal"><strong>COM Publicidade Page</strong></a>
+</p>
+<p>
+  <ul>
+    <li>
+      Various Graphic Design Projects (Packaging, Front-end web design, Online Media)
+    </li>
+    <li>
+      Social Media Marketing
+    </li>
+    <li>
+       E-mail Marketing
+    </li>
+  </ul>
+    </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+
+<h4 class="vitae-subheading">Education</h3>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingSix">
+                          <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                  <strong>2016 </strong>: Front-End Web Development Course, General Assembly
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseSix" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSix">
+                          <div class="panel-body">
+                              <p>
+                              <strong>  <a href="https://generalassemb.ly/">GA Website </a></strong>
+                                <ul>
+                                  <li>Using HTML5, CSS3, JavaScript, jQuery, GitHub, and Sublime.</li>
+                                   <li>HTML, CSS, and JavaScript websites.</li>
+                                   <li>Building a fully responsive, interactive website, improving technical vocabulary</li>
+                                   <li> Understanding how a skillful mix of programming and layout powers the web, and how teams collaborate to create it.</li>
+                            </ul>
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingSeven">
+                          <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                 <strong>2011-2016</strong>: Bachelor's degree: Graphic, Web and Industrial Design, UNISUL
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                          <div class="panel-body">
+                              <p>
+                                  <strong><a href="http://www.unisul.br/presencial/graduacao/design-florianopolis/">Universidade do Sul de Santa Catarina Website</a></strong>
+                                <ul>
+                                  <li>Extensive Knowledge in Graphic Design, including Tools to create printed and online media.</li>
+                                   <li>Extensive work with Web Design: User Experience, Information Hierarchy, coding skills.</li>
+                                   <li>Experience with Industrial Design: study of form and function, creation of products, knowledge of different materials and usage.</li>
+
+                            </ul>
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+  </section>
+
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3 class="cta-heading">Contact me</h3>
+  <br />
+  <i class="fas fa-envelope-open-text"></i>
+  <p>
+    clarissa.westphal@gmail.com
+  </p>
+
+    </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+
+    <p><p style="text-align: center"> Copyright &copy; <script>document.write(new Date().getFullYear())</script> Clarissa Westphal Nogueira All Rights Reserved</p></p>
+
+  </footer>
+
+
+</body>
+
+</html>
